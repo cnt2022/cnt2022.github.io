@@ -1,12 +1,35 @@
-body {background-color: yellow}
+body {background-color: white}
 
 
 .filters {
   padding: 10px;
-  border: 1px solid #4CAF50;
+  border: 1px solid #44627D;
+  background-color: #44627D;
+}
+
+.list-group-item {
+  background-color: #44627D;
 }
 
 #latestnews {
   margin-top:10px;
+}
 
+#bodycontent2 {
+  background-color: #30414E;
+}
+
+#filterboxbg {
+  background-color: #30414E;
+}
+
+#stuff {
+  background color: red;
+}
+
+#bottomnav {
+  background-color: #30414E;
+}
+.bg-info {
+  background-color: 4A9CCA !important;
 }
