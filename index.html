@@ -7,7 +7,9 @@
       body div { border: 1px solid red; }
       .filters {background-color: blue;}
     </style>
-    <!-- links to style sheets, google fonts, etc. go here -->
+    <link href="css/styles.css"
+      type="text/css"
+      rel="stylesheet">
 
   </head>
 
@@ -15,9 +17,11 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Navbar</a>
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
@@ -52,7 +56,19 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
 
-    <div class="container overflow-hidden">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col" id="latestnews">
+          Latest News
+        </div>
+
+        <div class="col" id="latestnews">
+          Latest Forum Posts
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid overflow-hidden">
       <div class="row gy-5">
         <div class="col-6">
           <div class="p-3 border bg-light">Custom column padding</div>
@@ -61,11 +77,15 @@
           <div class="p-3 border bg-light">Custom column padding</div>
         </div>
 
+        <div class="row gy-5">
+        </div>
+
         <div class="row">
           <div class="col-3">
 
           </div>
           <div class="col-9">
+
             <ul class="nav nav-tabs">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Active</a>
@@ -85,41 +105,145 @@
 
         <div class="row">
           <div class="col-3">
+
             <div class="filters">
-              a
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                  First checkbox
+                </li>
+                <li class="list-group-item">
+                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                  Second checkbox
+                </li>
+                <li class="list-group-item">
+                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                  Third checkbox
+                </li>
+                <li class="list-group-item">
+                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                  Fourth checkbox
+                </li>
+                <li class="list-group-item">
+                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                  Fifth checkbox
+                </li>
+              </ul>
             </div>
           </div>
+
           <div class="col-9">
-            b
+            <div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-3">
+      Column
+    </div>
+    <div class="col-sm-3">
+      Column
+    </div>
+    <div class="col-sm-3">
+      Column
+    </div>
+    <div class="col-sm-3">
+      Column
+    </div>
+
+    <div class="col-sm-3">
+      Column
+    </div>
+    <div class="col-sm-3">
+      Column
+    </div>
+    <div class="col-sm-3">
+      Column
+    </div>
+    <div class="col-sm-3">
+      Column
+    </div>
+
+    <div class="col-sm-3">
+      Column
+    </div>
+    <div class="col-sm-3">
+      Column
+    </div>
+    <div class="col-sm-3">
+      Column
+    </div>
+    <div class="col-sm-3">
+      Column
+    </div>
+
+    <div class="col-sm-3">
+      Column
+    </div>
+    <div class="col-sm-3">
+      Column
+    </div>
+    <div class="col-sm-3">
+      Column
+    </div>
+    <div class="col-sm-3">
+      Column
+    </div>
+
+    <div class="col-sm-3">
+      Column
+    </div>
+    <div class="col-sm-3">
+      Column
+    </div>
+    <div class="col-sm-3">
+      Column
+    </div>
+    <div class="col-sm-3">
+      Column
+    </div>
+
+    <div class="col-sm-3">
+      Column
+    </div>
+    <div class="col-sm-3">
+      Column
+    </div>
+    <div class="col-sm-3">
+      Column
+    </div>
+    <div class="col-sm-3">
+      Column
+    </div>
+  </div>
+</div>
           </div>
         </div>
 
 
 
-        <ul class="list-group">
-          <li class="list-group-item">
-            <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-            First checkbox
-          </li>
-          <li class="list-group-item">
-            <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-            Second checkbox
-          </li>
-          <li class="list-group-item">
-            <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-            Third checkbox
-          </li>
-          <li class="list-group-item">
-            <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-            Fourth checkbox
-          </li>
-          <li class="list-group-item">
-            <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-            Fifth checkbox
-          </li>
-        </ul>
 
-        <ul class="nav">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-2">
+              <a class="nav-link" href="#">Contact us</a>
+            </div>
+
+            <div class="col-sm-2">
+              <a class="nav-link" href="#">Privacy Policy</a>
+            </div>
+
+            <div class="col-sm-2">
+              <a class="nav-link" href="#">Link</a>
+            </div>
+
+            <div class="col-sm-2">
+              <a class="nav-link" href="#">Link</a>
+            </div>
+
+            <div class="col-sm-4">
+            </div>
+          </div>
+        </div>
+
+  <ul class="nav">
   <li class="nav-item">
     <a class="nav-link active" aria-current="page" href="#">Active</a>
   </li>
