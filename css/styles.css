@@ -15,6 +15,10 @@ body {background-color: white}
   margin-top:10px;
 }
 
+#news {
+  background-color: #44627D; 
+}
+
 #bodycontent2 {
   background-color: #30414E;
 }
@@ -30,6 +34,23 @@ body {background-color: white}
 #bottomnav {
   background-color: #30414E;
 }
+
+#test {
+  padding-bottom: 24px;
+}
+
+#tested {
+  padding-bottom: 24px;
+}
+
+#download {
+  margin: auto;
+  background-color: yellow;
+    height: 40px;
+  width: 100px;
+    position: static;
+}
+
 .bg-info {
   background-color: 4A9CCA !important;
 }
