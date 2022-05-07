@@ -109,6 +109,20 @@ body {background-color: white}
 #ccbar {
   background-color: white;
 }
+
+#iconinfo {
+}
+
+#icon {
+  float: right;
+ margin: 0 0 0 15px;
+}
+
+#cctext {
+  float: right;
+ margin: 0 0 0 0px;
+   font-size: 14px
+}
 .bg-info {
   background-color: 4A9CCA !important;
 }
