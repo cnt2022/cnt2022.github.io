@@ -105,6 +105,10 @@ body {background-color: white}
   color:white;
   font-size: 14px;
 }
+
+#ccbar {
+  background-color: white;
+}
 .bg-info {
   background-color: 4A9CCA !important;
 }
