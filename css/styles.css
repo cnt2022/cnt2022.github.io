@@ -5,8 +5,13 @@ body {background-color: white}
   padding: 10px;
   border: 1px solid #44627D;
   background-color: #44627D;
+  color: white;
 }
 
+#checkboxes {
+  color: white;
+  font-size: 13px;
+}
 .list-group-item {
   background-color: #44627D;
 }
@@ -16,9 +21,14 @@ body {background-color: white}
 }
 
 #news {
-  background-color: #44627D; 
+  background-color: #44627D;
 }
 
+#oldernews {
+  line-height: 0.050;
+  color: white;
+  font-size: 12px;
+}
 #bodycontent2 {
   background-color: #30414E;
 }
@@ -34,13 +44,38 @@ body {background-color: white}
 #bottomnav {
   background-color: #30414E;
 }
-
-#test {
-  padding-bottom: 24px;
+#navtext {
+  color: white;
 }
 
-#tested {
-  padding-bottom: 24px;
+#test {
+  padding-bottom: 35px;
+}
+
+#clothingtype {
+  padding-bottom:25px;
+}
+
+#filetypespacingtwo {
+  padding-top: 63px;
+    font-size: 13px;
+}
+
+#filetypespacingone {
+  padding-bottom: 0px;
+  color: white;
+    font-size: 13px;
+
+}
+
+#abovealpha {
+  padding-top:69px;
+}
+
+#spacingfilter {
+  padding-top: 10px;
+  color: white;
+    font-size: 13px;
 }
 
 #download {

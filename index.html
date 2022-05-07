@@ -62,11 +62,11 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col" id="latestnews">
-          Latest News
+          <h5> <b>Latest News </b> </h5>
         </div>
 
         <div class="col" id="latestnews">
-          Latest Forum Posts
+        <h5> <b> Latest Forum Posts </b> </h5>
         </div>
       </div>
     </div>
@@ -74,10 +74,23 @@
     <div class="container-fluid overflow-hidden">
       <div class="row gy-5">
         <div class="col-6">
-          <div class="p-3 border bg-light" id=news> Custom column padding </div>
+          <div class="p-3 border bg" id=news>
+            <img src="images/avatar.jpg" class="img-fluid" width="100"
+ height="100"/>
+            <a class="nav-link" href="#" id=navtext><p> <b> Nysha's New Creators for April </b> </p> </a>
+            <a class="nav-link" href="#" id=oldernews><p> Spring Event 2022! </p> </a>
+            <a class="nav-link" href="#" id=oldernews><p> Nysha's New Creators for March  </p> </a>
+            <a class="nav-link" href="#" id=oldernews><p> Notice of upcoming downtime Wednesday 30th March - NOT </p> </a>
+            </div>
         </div>
+
         <div class="col-6">
-          <div class="p-3 border bg-light" id=news> Custom column padding </div>
+          <div class="p-3 border bg" id=news>
+            <a class="nav-link" href="#" id=navtext><p> <b> How To Make Custom Careers  </b> </p></a>
+            <a class="nav-link" href="#" id=oldernews><p> Mod That Makes Your Sim Scared of Anything </p> </a>
+            <a class="nav-link" href="#" id=oldernews><p> A trait idea - let's see if it's possible! </p> </a>
+            <a class="nav-link" href="#" id=oldernews><p> Help with transparency recolouring </p> </a>
+             </div>
         </div>
 
         <div class="row gy-5">
@@ -112,75 +125,75 @@
             <div class="filters">
               <div class="row">
 
-                            <p>Filters </p>
+                            <h3>Filters </h3>
 
-                <div class="col-6">
+                <div class="col-6" >
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Gender</li>
+                  <li class="list-group-item" id="checkboxes"> <p> <b> Gender </b> </p></li>
 </ul>
 
                   <ul class="list-group">
-                    <li class="list-group-item">
+                    <li class="list-group-item" id="checkboxes">
                       <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
                       Female
                     </li>
 
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">Age</li>
+                    <ul class="list-group list-group-flush" >
+                      <li class="list-group-item" id="checkboxes"> <p> <b> Age </b> </p> </li>
               </ul>
-                    <li class="list-group-item">
+                    <li class="list-group-item" id="checkboxes">
                       <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
                       Baby
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item" id="checkboxes">
                       <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
                       Child
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item" id="checkboxes">
                       <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
                       Young Adult
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item"id="checkboxes">
                       <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
                       Elder
                     </li>
 
                     <ul class="list-group list-group-flush">
-                      <li class="list-group-item">Clothing Type</li>
+                      <li class="list-group-item" id="spacingfilter"> <p> <b> Clothing Type </b> </p> </li>
     </ul>
-                    <li class="list-group-item">
+                    <li class="list-group-item" id="checkboxes">
                       <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
                       Top
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item" id="checkboxes">
                       <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
                       Full Body
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item" id="checkboxes">
                       <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
                       Coat
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item" id="checkboxes">
                       <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
                       Necklaces
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item" id="checkboxes">
                       <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
                       Shoes
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item" id="checkboxes">
                       <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
                       Maternity
                     </li>
 
-                    <ul class="list-group list-group-flush" id=tested>
+                    <ul class="list-group list-group-flush" id="filetypespacingtwo">
                       <li class="list-group-item"></li>
                 </ul>
 
                 <ul class="list-group list-group-flush" >
-                  <li class="list-group-item">File Type</li>
+                  <li class="list-group-item" id="filetypespacingone"> <p> <b> File Type </b> </p> </li>
             </ul>
-                    <li class="list-group-item">
+                    <li class="list-group-item" id="checkboxes">
                       <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
                       Maxis-Match
                   </ul>
@@ -192,64 +205,64 @@
                       <li class="list-group-item"></li>
     </ul>
 
-                    <li class="list-group-item">
+                    <li class="list-group-item" id="checkboxes">
                       <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
                       Male
                     </li>
                     <ul class="list-group list-group-flush" id=test>
                       <li class="list-group-item"></li>
     </ul>
-                    <li class="list-group-item">
+                    <li class="list-group-item" id="checkboxes">
                       <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
                       Toddler
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item" id="checkboxes">
                       <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
                       Teen
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item" id="checkboxes">
                       <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
                       Adult
                     </li>
                     <ul class="list-group list-group-flush" id=test>
                       <li class="list-group-item"></li>
     </ul>
-    <ul class="list-group list-group-flush" id=test>
+    <ul class="list-group list-group-flush" id="clothingtype">
       <li class="list-group-item"></li>
 </ul>
-                    <li class="list-group-item">
+                    <li class="list-group-item" id="checkboxes">
                       <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
                       Bottom
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item" id="checkboxes">
                       <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
                       Dress
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item" id="checkboxes">
                       <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
                       Earrings
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item" id="checkboxes">
                       <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
                       Rings
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item" id="checkboxes">
                       <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
                       Socks
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item" id="checkboxes">
                       <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
                       Handheld
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item" id="checkboxes">
                       <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
                       Miscellaneous
                     </li>
 
-                    <ul class="list-group list-group-flush" id=test>
+                    <ul class="list-group list-group-flush" id="abovealpha">
                       <li class="list-group-item"></li>
                 </ul>
-                    <li class="list-group-item">
+                    <li class="list-group-item" id="checkboxes">
                       <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
                       Alpha
                     </li>
@@ -355,19 +368,19 @@
         <div class="container-fluid">
           <div class="row" id=bottomnav>
             <div class="col-sm-2" >
-              <a class="nav-link" href="#">Contact us</a>
+              <a class="nav-link" href="#" id=navtext>Contact us</a>
             </div>
 
             <div class="col-sm-2">
-              <a class="nav-link" href="#">Privacy Policy</a>
+              <a class="nav-link" href="#" id=navtext>Privacy Policy</a>
             </div>
 
             <div class="col-sm-2" >
-              <a class="nav-link" href="#">Cookie Policy</a>
+              <a class="nav-link" href="#" id=navtext>Cookie Policy</a>
             </div>
 
             <div class="col-sm-2" >
-              <a class="nav-link" href="#">Archive</a>
+              <a class="nav-link" href="#" id=navtext>Archive</a>
             </div>
 
             <div class="col-sm-4">
