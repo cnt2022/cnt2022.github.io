@@ -80,12 +80,31 @@ body {background-color: white}
 
 #download {
   margin: auto;
-  background-color: yellow;
+  background-color: #FFF496;
     height: 40px;
   width: 100px;
     position: static;
 }
 
+#recentbold {
+  background-color: #FFF496;
+}
+#tabs {
+  background-color: #30414E;
+}
+
+#tabtext {
+  color: white;
+}
+
+#cctitle {
+  color: white;
+}
+
+#cccategory {
+  color:white;
+  font-size: 14px;
+}
 .bg-info {
   background-color: 4A9CCA !important;
 }
