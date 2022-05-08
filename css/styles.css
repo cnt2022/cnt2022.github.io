@@ -125,6 +125,13 @@ body {background-color: white}
 }
 
 #eps{
+  @media (max-width: 768px) {
+  .float-right-sm {
+    float: right;
+  }
+}
+}
+
  margin: auto;
     font-size: 14px;
 }
