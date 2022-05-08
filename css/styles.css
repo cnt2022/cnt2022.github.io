@@ -133,6 +133,11 @@ body {background-color: white}
   margin: auto;
     font-size: 12px;
 }
+
+belowjunk
+#navbartext {
+  color:white !important;
+}
 .bg-info {
   background-color: 4A9CCA !important;
 }
