@@ -134,6 +134,26 @@ body {background-color: white}
     font-size: 12px;
 }
 
+  @media (min-width: 768px) {
+    .carousel-inner {
+      display: flex;
+    }
+    .carousel-item {
+      margin-right: 0;
+      flex: 0 0 33.333333%;
+      display: block;
+    }
+  }
+
+
+  .carousel-control-prev, .carousel-control-next{
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 belowjunk
 #navbartext {
   color:white !important;
