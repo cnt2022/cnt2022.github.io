@@ -119,21 +119,19 @@ body {background-color: white}
 }
 
 #cctext {
+    color: #44627D;
+    font-weight: bold;
   float: right;
  margin: 0 0 0 0px;
-   font-size: 14px
+   font-size: 12px
 }
 
 #eps{
-  @media (max-width: 768px) {
-  .float-right-sm {
-    float: right;
-  }
-}
-}
-
- margin: auto;
-    font-size: 14px;
+  color: #44627D;
+    font-weight: bold;
+     text-decoration-line: underline;
+  margin: auto;
+    font-size: 12px;
 }
 .bg-info {
   background-color: 4A9CCA !important;
