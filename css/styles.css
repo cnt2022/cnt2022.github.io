@@ -145,6 +145,9 @@ body {background-color: white}
     }
   }
 
+#ccdlinfo {
+  color: white;
+}
 
   .carousel-control-prev, .carousel-control-next{
     width: 6vh;
@@ -154,10 +157,23 @@ body {background-color: white}
     transform: translateY(-50%);
 }
 
+#descriptab {
+  background-color: #30414E;
+  color: white;
+}
+
+#filestab {
+  background-color: #FFF496;
+  color: black;
+}
+
+#highlighttext {
+  color: #FFF496;
+}
 belowjunk
 #navbartext {
   color:white !important;
 }
 .bg-info {
-  background-color: 4A9CCA !important;
+  background-color: #4A9CCA !important;
 }
